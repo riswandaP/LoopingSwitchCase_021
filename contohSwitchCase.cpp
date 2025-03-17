@@ -14,17 +14,22 @@ int main()
         cout << "Pilihan (1/2/3) = ";
         cin >> pilihan;
 
-    switch (pilihan)
-    {
+        switch (pilihan)
+        {
         case 1:
             cout << "Hitung luas persegi panjang" << endl;
             cout << "Masukkan panjang = ";
             cin >> panjang;
             cout << "Masukkan lebar = ";
             cin >> lebar;
-            cout << "Luas persegi panjang = " << luasPersegiPanjang (panjang, lebar)
+            cout << "Luas persegi panjang = " << luasPersegiPanjang(panjang, lebar) break;
+        case 2:
+            cout << "Hitung luas lingkaran" << endl;
+            cout << "Masukkan jari-jari = ";
+            cin >> jejari;
+            cout << "Luas lingkaran = " << luasLingkaran(jejari) << endl;
             break;
             
-    }
+        }
     }
 }
